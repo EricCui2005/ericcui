@@ -3,6 +3,8 @@ import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Section from './components/section';
 import Image from 'next/image';
 import RoundedImage from './components/roundedImage';
+import { TypeAnimation } from 'react-type-animation';
+import React, { useEffect, useState } from 'react';
 
 export default function Home() {
   return (
@@ -11,7 +13,14 @@ export default function Home() {
         <Section>
           <RoundedImage image="/Eric.jpeg" />
           <h1>
-            <b>Eric Cui</b>
+            <div className="h-12">
+              <TypeAnimation
+                preRenderFirstString={true}
+                sequence={['', 0, 'Hi! My name is Eric!']}
+                speed={50}
+                style={{ fontSize: '2em' }}
+              />
+            </div>
           </h1>
         </Section>
         <Section>
@@ -29,6 +38,7 @@ export default function Home() {
           </p>
         </Section>
         <Section>Experience</Section>
+        <Section>Skills</Section>
         <Section>Projects</Section>
         <Section>Footer</Section>
 
