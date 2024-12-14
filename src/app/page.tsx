@@ -13,19 +13,26 @@ export default function Home() {
           <h1>
             <b>Eric Cui</b>
           </h1>
-          <p>I am an undergraduate at Stanford University studying computer science</p>
         </Section>
         <Section>
           <h1>
             <b>About</b>
           </h1>
-          <p>I am an undergraduate at Stanford University studying computer science</p>
+          <p className="w-3/4">
+            Hi there! I’m Eric Cui, an undergraduate Computer Science student at Stanford University
+            specializing in Artificial Intelligence. I’m passionate about creating innovative
+            solutions at the intersection of deep learning, full-stack development, and cutting-edge
+            AI research. My experience spans building scalable web applications, integrating natural
+            language processing systems, and managing robust API services. I’m always eager to
+            tackle challenging projects and collaborate with others to make an impact. Let’s connect
+            at ericcui[at]stanford.edu!
+          </p>
         </Section>
-        {/* <Section>Experience</Section>
+        <Section>Experience</Section>
         <Section>Projects</Section>
-        <Section>Footer</Section> */}
+        <Section>Footer</Section>
 
-        {/* <ParallaxProvider scrollAxis="vertical">
+        <ParallaxProvider scrollAxis="vertical">
           <div className="relative z-20">
             <Parallax speed={-5}>
               <div className="border border-blue-400 bg-red-600">Test 1</div>
@@ -36,7 +43,7 @@ export default function Home() {
               <div className="border border-green-400 bg-red-600">Test 2</div>
             </Parallax>
           </div>
-        </ParallaxProvider> */}
+        </ParallaxProvider>
       </div>
     </>
   );
