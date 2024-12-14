@@ -17,7 +17,7 @@ export default function Home() {
               <TypeAnimation
                 preRenderFirstString={true}
                 sequence={['', 0, 'Hi! My name is Eric!']}
-                speed={50}
+                speed={10}
                 style={{ fontSize: '2em' }}
               />
             </div>
