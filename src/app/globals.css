@@ -2,18 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light mode configs */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: white;
+  --foreground: black;
 }
 
+/* Dark mode configs */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: white;
+    --foreground: black;
   }
 }
 
+/* Wraps the "root" level body component in layout.tsx*/
 body {
   color: var(--foreground);
   background: var(--background);
