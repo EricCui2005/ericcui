@@ -11,6 +11,7 @@
   --white: #ffffff;
   --offWhite: #dedede;
   --lightBlueHover: #3f4b6d;
+  --darkerBlue: #1b2644;
 }
 
 /* Wraps the "root" level body component in layout.tsx*/

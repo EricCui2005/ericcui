@@ -16,6 +16,7 @@ export default {
         white: 'var(--white)',
         offWhite: 'var(--offWhite)',
         lightBlueHover: 'var(--lightBlueHover)',
+        darkerBlue: 'var(--darkerBlue)',
       },
     },
   },

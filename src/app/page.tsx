@@ -1,9 +1,9 @@
 'use client';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
-import React, { useEffect, useState } from 'react';
 import AboutSection from './components/aboutSection';
 import SkillsSection from './components/skillsSection';
 import Landing from './components/landing';
+import PortfolioSection from './components/portfolioSection';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Landing />
       <AboutSection />
       <SkillsSection />
-      <div className="debug h-[75vh] w-full"></div>
+      <PortfolioSection />
 
       {/* <ParallaxProvider scrollAxis="vertical">
           <div className="relative z-20">
