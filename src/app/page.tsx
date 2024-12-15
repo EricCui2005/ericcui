@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <div className="arrow down absolute bottom-[160px]"></div>
       </div>
-      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl">
+      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl drop-shadow-xl">
         <NavButton text="Home" />
         <NavButton text="About" />
         <NavButton text="Skills" />

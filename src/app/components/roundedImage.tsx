@@ -8,7 +8,7 @@ export default function RoundedImage({ image, dim }) {
         height={dim}
         width={dim}
         alt="Eric Cui"
-        className="aspect-square rounded-full object-cover"
+        className="aspect-square rounded-full object-cover drop-shadow-xl"
       />
     </>
   );
