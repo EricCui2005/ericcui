@@ -5,11 +5,23 @@ import Image from 'next/image';
 import RoundedImage from './components/roundedImage';
 import { TypeAnimation } from 'react-type-animation';
 import React, { useEffect, useState } from 'react';
+import NavButton from './components/navButton';
 
 export default function Home() {
   return (
     <>
-      <div className="items-centerborder flex h-[200vh] flex-col border-red-400">
+      <div className="relative flex h-[100vh] flex-col items-center justify-center">
+        <h1 className="text-5xl text-white">Hello, I'm Eric.</h1>
+        <div className="arrow down absolute bottom-24"></div>
+      </div>
+      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl">
+        <NavButton text="Home" />
+        <NavButton text="About" />
+        <NavButton text="Skills" />
+        <NavButton text="Portfolio" />
+        <NavButton text="Contact" />
+      </div>
+      <div className="flex h-[200vh] flex-col items-center">
         <Section>
           <RoundedImage image="/Eric.jpeg" />
           <h1>
@@ -37,7 +49,12 @@ export default function Home() {
             at ericcui[at]stanford.edu!
           </p>
         </Section>
-        <Section>Experience</Section>
+        <Section>
+          <h1>
+            <b>Experience</b>
+          </h1>
+          <p className="w-3/4">Talk about Wise-Sales</p>
+        </Section>
         <Section>Skills</Section>
         <Section>Projects</Section>
         <Section>Footer</Section>
@@ -45,7 +62,7 @@ export default function Home() {
         <ParallaxProvider scrollAxis="vertical">
           <div className="relative z-20">
             <Parallax speed={-5}>
-              <div className="border border-blue-400 bg-red-600">Test 1</div>
+              <div className="border border-red-400 bg-red-600">Test 1</div>
             </Parallax>
           </div>
           <div className="relative z-10">

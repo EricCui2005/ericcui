@@ -5,7 +5,7 @@ export default function Section({
 }>) {
   return (
     <>
-      <div className="mt-36 flex h-60 w-full flex-col items-center justify-center bg-gray-400">
+      <div className="bg-offWhite m-4 flex h-60 w-full flex-col items-center justify-center">
         {children}
       </div>
     </>

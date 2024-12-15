@@ -4,16 +4,13 @@
 
 /* Light mode configs */
 :root {
-  --background: white;
+  --background: #1a2951;
   --foreground: black;
-}
-
-/* Dark mode configs */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: white;
-    --foreground: black;
-  }
+  --darkBlue: #1a2951;
+  --lightBlue: #313d5e;
+  --white: #ffffff;
+  --offWhite: #dedede;
+  --lightBlueHover: #3f4b6d;
 }
 
 /* Wraps the "root" level body component in layout.tsx*/
@@ -21,6 +18,29 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Creating a CSS arrow */
+.arrow {
+  border: solid white;
+  height: 20px;
+  width: 20px;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.fixed {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  z-index: 100;
+  transform: translateX(-50%);
 }
 
 /* Debugging thing */
