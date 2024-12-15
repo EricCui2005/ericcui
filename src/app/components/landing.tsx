@@ -1,4 +1,5 @@
 import NavButton from './navButton';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Landing() {
   return (
@@ -8,13 +9,6 @@ export default function Landing() {
           Hello, I'm <b>Eric</b>
         </h1>
         <div className="arrow down absolute bottom-[160px]"></div>
-      </div>
-      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl drop-shadow-xl">
-        <NavButton text="Home" />
-        <NavButton text="About" />
-        <NavButton text="Skills" />
-        <NavButton text="Portfolio" />
-        <NavButton text="Contact" />
       </div>
     </>
   );
