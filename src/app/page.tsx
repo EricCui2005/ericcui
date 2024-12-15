@@ -4,10 +4,18 @@ import AboutSection from './components/aboutSection';
 import SkillsSection from './components/skillsSection';
 import Landing from './components/landing';
 import PortfolioSection from './components/portfolioSection';
+import NavButton from './components/navButton';
 
 export default function Home() {
   return (
     <>
+      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl drop-shadow-xl">
+        <NavButton text="Home" />
+        <NavButton text="About" />
+        <NavButton text="Skills" />
+        <NavButton text="Portfolio" />
+        <NavButton text="Contact" />
+      </div>
       <Landing />
       <AboutSection />
       <SkillsSection />
