@@ -13,6 +13,7 @@
   --lightBlueHover: #3f4b6d;
   --darkerBlue: #1b2644;
   --darkestBlue: #151f3c;
+  --neonBlue: #2acaff;
 }
 
 /* Wraps the "root" level body component in layout.tsx*/

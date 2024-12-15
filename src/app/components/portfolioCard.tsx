@@ -1,3 +1,5 @@
+import TechCell from './techCell';
+
 export default function PortfolioCard() {
   return (
     <>
@@ -11,13 +13,8 @@ export default function PortfolioCard() {
                 school year. It is a very cool project that involves a lot of complicated
                 technologies and such
               </p>
-              <div className="debug mt-4 flex h-[35%] flex-wrap content-start gap-1 gap-y-2 p-2">
-                <div className="flex flex-row items-center justify-center rounded-lg border border-white px-2 text-[16px]">
-                  React
-                </div>
-                <div className="flex flex-row items-center justify-center rounded-lg border border-white px-2 text-[16px]">
-                  TypeScript
-                </div>
+              <div className="text-neonBlue mt-4 flex h-[35%] flex-wrap content-start gap-1 gap-y-2 p-2">
+                <TechCell text="React" />
               </div>
             </div>
           </div>

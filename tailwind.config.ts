@@ -18,6 +18,7 @@ export default {
         lightBlueHover: 'var(--lightBlueHover)',
         darkerBlue: 'var(--darkerBlue)',
         darkestBlue: 'var(--darkestBlue)',
+        neonBlue: 'var(--neonBlue)',
       },
     },
   },
