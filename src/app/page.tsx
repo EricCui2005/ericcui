@@ -6,6 +6,7 @@ import RoundedImage from './components/roundedImage';
 import React, { useEffect, useState } from 'react';
 import NavButton from './components/navButton';
 import AboutSection from './components/aboutSection';
+import SkillCard from './components/skillCard';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <h1 className="text-5xl text-white">
           Hello, I'm <b>Eric</b>
         </h1>
-        <div className="arrow down absolute bottom-24"></div>
+        <div className="arrow down absolute bottom-[160px]"></div>
       </div>
       <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl">
         <NavButton text="Home" />
@@ -25,8 +26,13 @@ export default function Home() {
       </div>
       <div className="flex h-[200vh] flex-col items-center">
         <AboutSection />
-        <div className="debug relative flex h-[75vh] w-full flex-col items-center justify-center">
-          <h1 className="absolute top-10">Skills</h1>
+        <div className="debug relative flex h-[125vh] w-full flex-col items-center justify-center">
+          <h1 className="absolute top-[150px] text-[36px] font-bold text-white">Skills</h1>
+          <div className="flex flex-row gap-8">
+            <SkillCard title="Languages" />
+            <SkillCard title="Technologies" />
+            <SkillCard title="Developer Tools" />
+          </div>
         </div>
 
         {/* <ParallaxProvider scrollAxis="vertical">
