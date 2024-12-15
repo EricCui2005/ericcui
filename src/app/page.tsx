@@ -5,6 +5,7 @@ import SkillsSection from './components/skillsSection';
 import Landing from './components/landing';
 import PortfolioSection from './components/portfolioSection';
 import NavButton from './components/navButton';
+import ContactSection from './components/contactSection';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <PortfolioSection />
+      <ContactSection />
 
       {/* <ParallaxProvider scrollAxis="vertical">
           <div className="relative z-20">
