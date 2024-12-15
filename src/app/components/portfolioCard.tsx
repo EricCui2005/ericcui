@@ -1,7 +1,7 @@
 export default function PortfolioCard() {
   return (
     <>
-      <div className="bg-lightBlue absolute top-[150px] h-96 w-72 overflow-hidden rounded-3xl drop-shadow-xl">
+      <div className="bg-lightBlue mt-32 h-96 w-72 overflow-hidden rounded-3xl drop-shadow-xl">
         <div className="relative flex h-full w-full flex-col items-center">
           <div className="bg-darkerBlue absolute top-1/3 flex h-2/3 w-full flex-col items-center">
             <div className="mt-4 h-[90%] w-[90%] text-white">
