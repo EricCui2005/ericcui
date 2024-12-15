@@ -6,9 +6,10 @@ export default function PortfolioSection() {
       <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
         <h1 className="absolute top-7 text-[36px] font-bold text-white">Portfolio</h1>
         <div className="absolute top-28 flex flex-row items-center justify-center gap-8">
-          <PortfolioCard />
-          <PortfolioCard />
-          <PortfolioCard />
+          <PortfolioCard title="Stanford Scheduler" techs={['React', 'GitHub']}>
+            This is a description for one of my projects. This is a really cool project that took a
+            long time, and I am really excited about this project.
+          </PortfolioCard>
         </div>
       </div>
     </>
