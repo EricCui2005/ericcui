@@ -17,33 +17,50 @@ export default function PortfolioSection() {
             ]}
             img="/Stanford Scheduler.svg"
           >
-            Z3 theorem-powered Stanford course scheduling application.
+            A Z3 theorem-powered Stanford course scheduling application capable of incorporating
+            degree program requirements and user preferences to output optimal 4-year course
+            schedules.
           </PortfolioCard>
           <PortfolioCard
             title="Behavioral Cloning in 2048"
-            techs={['TensorFlow', 'Jupyter Notebook', 'Python', 'Tkinter', 'C++', 'Tqdm']}
+            techs={[
+              'TensorFlow',
+              'Jupyter Notebook',
+              'Google Colab',
+              'Tkinter',
+              'Tqdm',
+              'Python',
+              'C++',
+            ]}
             links={[
               {
                 text: 'GitHub',
                 link: 'https://github.com/EricCui2005/2048',
+              },
+              {
+                text: 'Report',
+                link: 'https://drive.google.com/file/d/1O7x6gZ0GiAALIRFp8dv8l2TGeE0QlWSU/view?usp=sharing',
               },
             ]}
             img="/2048.svg"
           >
-            Deep Behavioral Cloning using expert data from Monte Carlo Tree Search 2048 project.
+            A research study exploring AI play in 2048 with deep behavioral cloning neural networks
+            trained on expert data generated from Monte Carlo Tree Search.
           </PortfolioCard>
           <PortfolioCard
             title="Education Technology Copilot"
-            techs={['React', 'Next.js', 'NLP', 'Node.js']}
+            techs={['React', 'Next.js', 'NLP', 'Node.js', 'Tailwind']}
             links={[
               {
                 text: 'GitHub',
-                link: 'https://github.com/EricCui2005/2048',
+                link: 'https://github.com/EricCui2005/subject-sandbox',
               },
             ]}
             img="/Subject.svg"
           >
-            NLP-powered education technology lecture copilot in partnership with Subject Learning.
+            An NLP-powered education technology copilot in partnership with Subject Learning capable
+            of generating module-specific supplementary learning materials and supporting
+            content-based timestamp seeking.
           </PortfolioCard>
           <PortfolioCard
             title="Chihuahua, or Muffin?"
@@ -51,26 +68,35 @@ export default function PortfolioSection() {
             links={[
               {
                 text: 'GitHub',
-                link: 'https://github.com/EricCui2005/2048',
+                link: 'https://github.com/EricCui2005/Chuffin',
+              },
+              {
+                text: 'Report',
+                link: 'https://drive.google.com/file/d/1rj0hPTKIullq8Tfltbj2IXPIyfsg0rhr/view?usp=sharing',
               },
             ]}
             img="/Chuffin.svg"
           >
-            Trained convolutional neural networks to identify the difference between Chihuahuas and
-            muffins.
+            A research study exploring training convolutional neural networks to differentiate
+            between muffin-esque chihuahuas and dog-like blueberry muffins.
           </PortfolioCard>
           <PortfolioCard
             title="AI for Nine Men's Morris"
-            techs={['Google Colab', 'Python', 'TensorFlow']}
+            techs={['Google Colab', 'Python', 'Replit']}
             links={[
               {
                 text: 'GitHub',
-                link: 'https://github.com/EricCui2005/2048',
+                link: 'https://github.com/EricCui2005/Nine-Mens-Morris',
+              },
+              {
+                text: 'Report',
+                link: 'https://drive.google.com/file/d/1DelBpF1LLmoTEyKdarjO7lrHgJN2c7Z7/view?usp=sharing',
               },
             ]}
-            img=""
+            img="/NMM.svg"
           >
-            Designed AI architecture to intelligently automate the game Nine Men's Morris.
+            A research study exploring AI play in Nine Men's Morris using recursive decision-making
+            algorithms and custom game evaluation routines.
           </PortfolioCard>
         </div>
       </div>
