@@ -11,14 +11,11 @@ export default function PortfolioSection() {
             techs={['React', 'GitHub']}
             links={[
               {
-                text: 'Very long link',
-                link: 'google.com',
-              },
-              {
-                text: 'Link1',
-                link: 'google.com',
+                text: 'GitHub',
+                link: 'https://github.com/ChapSpace/CourseConstrainSolverBackend',
               },
             ]}
+            img="/Stanford Scheduler.svg"
           >
             Z3 theorem-powered Stanford course scheduling application.
           </PortfolioCard>
