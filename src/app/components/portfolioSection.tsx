@@ -8,7 +8,7 @@ export default function PortfolioSection() {
         <div className="absolute top-28 flex flex-row items-center justify-center gap-8">
           <PortfolioCard
             title="Stanford Scheduler"
-            techs={['Python', 'Flask', 'MongoDB', 'React', 'Next.js', 'Tailwind']}
+            techs={['Python', 'Flask', 'MongoDB', 'React', 'Next.js', 'Tailwind', 'Node.js']}
             links={[
               {
                 text: 'GitHub',
@@ -33,17 +33,17 @@ export default function PortfolioSection() {
             Deep Behavioral Cloning using expert data from Monte Carlo Tree Search 2048 project.
           </PortfolioCard>
           <PortfolioCard
-            title="Behavioral Cloning in 2048"
-            techs={['TensorFlow', 'Python', 'Tkinter', 'C++', 'Tqdm']}
+            title="Education Technology Copilot"
+            techs={['React', 'Next.js', 'NLP', 'Node.js']}
             links={[
               {
                 text: 'GitHub',
                 link: 'https://github.com/EricCui2005/2048',
               },
             ]}
-            img="/2048.svg"
+            img="/Subject.svg"
           >
-            Deep Behavioral Cloning using expert data from Monte Carlo Tree Search 2048 project.
+            NLP-powered education technology lecture copilot in partnership with Subject Learning.
           </PortfolioCard>
         </div>
       </div>

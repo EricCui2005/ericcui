@@ -12,7 +12,7 @@ export default function PortfolioCard({ title, children, techs, links, img }) {
         <div className="relative flex h-full w-full flex-col items-center">
           <div className="bg-darkerBlue absolute top-1/3 z-20 flex h-2/3 w-full flex-col items-center">
             <div className="mt-4 h-[90%] w-[90%] text-white">
-              <h1 className="text-[26px] font-bold">{title}</h1>
+              <h1 className="text-[24px] font-bold">{title}</h1>
               <div className="mb-1 mt-1 flex flex-row gap-1">
                 {links.map((linkPair, index) => (
                   <Link key={index} text={linkPair['text']} link={linkPair['link']} />
