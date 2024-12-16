@@ -40,6 +40,14 @@ body {
   -webkit-transform: rotate(45deg);
 }
 
+.right {
+  transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
 .fixed {
   position: fixed;
   top: 24px;
