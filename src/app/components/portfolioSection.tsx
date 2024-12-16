@@ -5,7 +5,7 @@ export default function PortfolioSection() {
     <>
       <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
         <h1 className="absolute top-7 text-[36px] font-bold text-white">Portfolio</h1>
-        <div className="absolute top-28 flex w-5/6 flex-row items-center gap-8 overflow-x-auto">
+        <div className="items-top scrollbar-hide absolute top-28 flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto">
           <PortfolioCard
             title="Stanford Scheduler"
             techs={['Python', 'Flask', 'MongoDB', 'React', 'Next.js', 'Tailwind', 'Node.js']}
