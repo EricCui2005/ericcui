@@ -14,6 +14,8 @@
   --darkerBlue: #1b2644;
   --darkestBlue: #151f3c;
   --neonBlue: #2acaff;
+  --contactLightGray: #b8b8b8;
+  --contactDarkGray: #929292;
 }
 
 /* Wraps the "root" level body component in layout.tsx*/

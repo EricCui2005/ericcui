@@ -19,6 +19,8 @@ export default {
         darkerBlue: 'var(--darkerBlue)',
         darkestBlue: 'var(--darkestBlue)',
         neonBlue: 'var(--neonBlue)',
+        contactLightGray: 'var(--contactLightGray)',
+        contactDarkGray: 'var(--contactDarkGray)',
       },
     },
   },
