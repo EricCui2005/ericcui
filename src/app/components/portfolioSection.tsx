@@ -60,7 +60,7 @@ export default function PortfolioSection() {
             muffins.
           </PortfolioCard>
           <PortfolioCard
-            title="Chihuahua, or Muffin?"
+            title="AI for Nine Men's Morris"
             techs={['Google Colab', 'Python', 'TensorFlow']}
             links={[
               {
@@ -68,10 +68,9 @@ export default function PortfolioSection() {
                 link: 'https://github.com/EricCui2005/2048',
               },
             ]}
-            img="/Chuffin.svg"
+            img=""
           >
-            Trained convolutional neural networks to identify the difference between Chihuahuas and
-            muffins.
+            Designed AI architecture to intelligently automate the game Nine Men's Morris.
           </PortfolioCard>
         </div>
       </div>
