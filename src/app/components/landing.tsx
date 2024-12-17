@@ -9,7 +9,7 @@ export default function Landing() {
         <h1 className="text-6xl text-white">
           <TypeAnimation sequence={['Hello,', 1000, "Hello, I'm Eric"]} />
         </h1>
-        <div className="arrow down absolute bottom-[160px]"></div>
+        <div className="arrow down absolute bottom-[20%]"></div>
       </div>
     </>
   );

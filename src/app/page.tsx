@@ -38,11 +38,11 @@ export default function Home() {
       </div>
       <div id="home"></div>
       <Landing />
-      <div className="absolute top-[700px] w-full" id="about"></div>
+      <div className="absolute top-[85%] w-full" id="about"></div>
       <AboutSection />
       <div id="skills"></div>
       <SkillsSection />
-      <div className="absolute top-[2180px] w-full" id="portfolio"></div>
+      <div className="absolute top-[261%] w-full" id="portfolio"></div>
       <PortfolioSection />
       <div id="contact"></div>
       <ContactSection />
