@@ -15,8 +15,7 @@ export default function AboutSection() {
             intersection of full-stack development, deep learning, and cutting-edge AI research. My
             experience lies in building scalable web applications, integrating natural language
             processing systems, and managing robust API services. I'm always eager to tackle
-            challenging projects and collaborate with others to make an impact. Let's connect at
-            ericcui[at]stanford.edu!
+            challenging projects and collaborate with others to make an impact. Let's connect!
           </p>
         </div>
       </div>
