@@ -1,13 +1,38 @@
 import PortfolioCard from './portfolioCard';
+import { useEffect, useRef, useState } from 'react';
 
 export default function PortfolioSection() {
+  const [showLeftArrow, setShowLeftArrow] = useState(false);
+  const [showRightArrow, setShowRightArrow] = useState(true);
+  const scrollContainerRef = useRef(null);
+
+  const checkScroll = () => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      setShowLeftArrow(container.scrollLeft > 0);
+      setShowRightArrow(container.scrollLeft < container.scrollWidth - container.clientWidth);
+    }
+  };
+
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.addEventListener('scroll', checkScroll);
+
+      checkScroll();
+    }
+    return () => container?.removeEventListener('scroll', checkScroll);
+  }, []);
   return (
     <>
       <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
         <h1 className="absolute top-7 text-[36px] font-bold text-white">Portfolio</h1>
         <div className="absolute top-28 flex h-[620px] w-full flex-row items-center justify-center gap-8">
-          <div className="arrow left"></div>
-          <div className="items-top scrollbar-hide flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto">
+          {showLeftArrow && <div className="arrow left"></div>}
+          <div
+            ref={scrollContainerRef}
+            className="items-top scrollbar-hide flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto"
+          >
             <PortfolioCard
               title="Stanford Scheduler"
               techs={['Python', 'Flask', 'MongoDB', 'React', 'Next.js', 'Tailwind', 'Node.js']}
@@ -101,7 +126,7 @@ export default function PortfolioSection() {
               decision-making algorithms and custom game evaluation routines.
             </PortfolioCard>
           </div>
-          <div className="arrow right"></div>
+          {showRightArrow && <div className="arrow right"></div>}
         </div>
       </div>
     </>
