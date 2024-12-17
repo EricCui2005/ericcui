@@ -30,11 +30,27 @@ export default function ContactSection() {
             </a>
           </ContactSubsection>
           <ContactSubsection title="Emails">
-            <p className="text-offWhite text-[14px]">ericcui.career@gmail.com (work)</p>
-            <p className="text-offWhite text-[14px]">ericcui@stanford.edu (school)</p>
+            <a
+              href="mailto:ericcui.career@gmail.com"
+              className="text-offWhite text-[14px] hover:underline"
+            >
+              ericcui.career@gmail.com (work)
+            </a>
+            <a
+              href="mailto:ericcui@stanford.edu"
+              className="text-offWhite text-[14px] hover:underline"
+            >
+              ericcui@stanford.edu (school)
+            </a>
           </ContactSubsection>
           <ContactSubsection title="Resume">
-            <div className="text-offWhite text-[14px]">Eric Cui Resume.pdf</div>
+            <a
+              href="https://drive.google.com/file/d/1lzvMAbGZpkWtzr3VYtSCrzv1w0cpZ0lV/view?usp=sharing"
+              className="text-offWhite text-[14px] hover:underline"
+              target="_blank"
+            >
+              Eric Cui Resume.pdf
+            </a>
           </ContactSubsection>
         </div>
       </div>
