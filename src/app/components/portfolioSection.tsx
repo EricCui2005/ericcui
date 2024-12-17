@@ -28,7 +28,7 @@ export default function PortfolioSection() {
       <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
         <h1 className="absolute top-7 text-[36px] font-bold text-white">Portfolio</h1>
         <div className="absolute top-28 flex h-[620px] w-full flex-row items-center justify-center gap-8">
-          {showLeftArrow && <div className="arrow left"></div>}
+          <div className="w-[24px]">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
             ref={scrollContainerRef}
             className="items-top scrollbar-hide flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto"
@@ -126,7 +126,7 @@ export default function PortfolioSection() {
               decision-making algorithms and custom game evaluation routines.
             </PortfolioCard>
           </div>
-          {showRightArrow && <div className="arrow right"></div>}
+          <div className="w-[24px]">{showRightArrow && <div className="arrow right"></div>}</div>
         </div>
       </div>
     </>
