@@ -19,7 +19,7 @@ export default function PortfolioCard({ title, children, techs, links, img }) {
                 ))}
               </div>
               <p className="text-[18px]">{children}</p>
-              <div className="text-neonBlue mt-4 flex h-[35%] flex-wrap content-start gap-1 gap-y-2 p-2">
+              <div className="text-neonBlue absolute top-64 mt-4 flex h-[120px] w-[350px] flex-row-reverse flex-wrap-reverse content-start gap-2 gap-y-2 p-2">
                 {techs.map((tech, index) => (
                   <TechCell key={index} text={tech} />
                 ))}
