@@ -7,9 +7,27 @@ export default function ContactSection() {
         <div className="flex w-5/6 flex-row justify-center gap-48">
           <h1 className="text-offWhite ml-10 text-[32px]">Contact</h1>
           <ContactSubsection title="Socials">
-            <p className="text-offWhite text-[14px]">LinkedIn</p>
-            <p className="text-offWhite text-[14px]">GitHub</p>
-            <p className="text-offWhite text-[14px]">X</p>
+            <a
+              href="https://www.linkedin.com/in/eric-cui-003154233/"
+              className="text-offWhite text-[14px] hover:underline"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/EricCui2005"
+              className="text-offWhite text-[14px] hover:underline"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://x.com/EricCui29"
+              className="text-offWhite text-[14px] hover:underline"
+              target="_blank"
+            >
+              X
+            </a>
           </ContactSubsection>
           <ContactSubsection title="Emails">
             <p className="text-offWhite text-[14px]">ericcui.career@gmail.com (work)</p>
