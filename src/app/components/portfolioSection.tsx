@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 export default function PortfolioSection() {
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
-  const scrollContainerRef = useRef(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const checkScroll = () => {
     const container = scrollContainerRef.current;
