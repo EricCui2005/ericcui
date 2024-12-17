@@ -56,6 +56,10 @@ body {
   transform: translateX(-50%);
 }
 
+.primaryFont {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
 /* Debugging thing */
 .debug {
   border: 1px solid red;
