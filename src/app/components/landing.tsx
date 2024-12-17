@@ -1,5 +1,6 @@
 import NavButton from './navButton';
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'motion/react';
 
 export default function Landing() {
   return (
