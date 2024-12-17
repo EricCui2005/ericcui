@@ -5,7 +5,6 @@ export default function ContactSection() {
     <>
       <div className="bg-darkestBlue relative flex h-[35vh] w-full flex-row items-center justify-center">
         <div className="flex w-5/6 flex-row justify-center gap-48">
-          <h1 className="text-offWhite ml-10 text-[32px]">Contact</h1>
           <ContactSubsection title="Socials">
             <a
               href="https://www.linkedin.com/in/eric-cui-003154233/"
