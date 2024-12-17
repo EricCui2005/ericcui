@@ -6,6 +6,7 @@ import PortfolioSection from './components/portfolioSection';
 import NavButton from './components/navButton';
 import ContactSection from './components/contactSection';
 import Head from 'next/head';
+import { useEffect } from 'react';
 
 export default function Home() {
   const scrollToSection = (id) => {
