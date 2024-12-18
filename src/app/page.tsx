@@ -8,6 +8,7 @@ import ContactSection from './components/contactSection';
 import Head from 'next/head';
 import { useEffect } from 'react';
 
+// Home page
 export default function Home() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -29,7 +30,7 @@ export default function Home() {
         />
         <meta name="author" content="Eric Cui" />
       </Head>
-      <div className="bg-lightBlue fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl drop-shadow-xl">
+      <div className="fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl bg-lightBlue drop-shadow-xl">
         <NavButton text="Home" onClick={() => scrollToSection('home')} />
         <NavButton text="About" onClick={() => scrollToSection('about')} />
         <NavButton text="Skills" onClick={() => scrollToSection('skills')} />
