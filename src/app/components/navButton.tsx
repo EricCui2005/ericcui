@@ -3,7 +3,7 @@ export default function NavButton({ text, ref }) {
     <>
       <a
         href={`#${ref}`}
-        className="flex h-[75%] w-[19%] select-none flex-col items-center justify-center rounded-lg text-[1.1vw] text-white transition duration-300 hover:bg-lightBlueHover"
+        className="text-md flex h-[75%] w-24 select-none flex-col items-center justify-center rounded-xl text-white transition duration-300 hover:bg-lightBlueHover"
       >
         <h1>{text}</h1>
       </a>
