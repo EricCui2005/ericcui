@@ -1,18 +1,22 @@
-import SkillLine from './skillLine';
+import SkillBlock from './skillBlock';
+import SkillCard from './skillCard';
 
 export default function LanguagesCard({ title }) {
   return (
     <>
-      <div className="bg-lightBlue flex h-[65vh] w-[30vw] flex-col items-center rounded-3xl pt-4 drop-shadow-xl">
-        <h1 className="mt-1 text-[28px] text-white">{title}</h1>
-        <div className="mt-4 flex w-3/4 flex-col items-center justify-center gap-4">
-          <SkillLine label="Python" img={'/python.png'} imgDim={50} />
-          <SkillLine label="C++" img={'/cpp.png'} imgDim={50} />
-          <SkillLine label="C#" img={'/csharp.png'} imgDim={50} />
-          <SkillLine label="Java" img={'/java.png'} imgDim={50} />
-          <SkillLine label="JavaScript" img={'/javaScript.png'} imgDim={50} />
-        </div>
-      </div>
+      <SkillCard title={title}>
+        <SkillBlock label="Python" img={'/python.png'} />
+        <SkillBlock label="C++" img={'/cpp.png'} />
+        <SkillBlock label="C#" img={'/csharp.png'} />
+        <SkillBlock label="C" img={'/C.png'} />
+        <SkillBlock label="TypeScript" img={'/typescript.png'} />
+        <SkillBlock label="JavaScript" img={'/javaScript.png'} />
+        <SkillBlock label="HTML" img={'/html.png'} />
+        <SkillBlock label="CSS" img={'/css.svg'} />
+        <SkillBlock label="Java" img={'/java.png'} />
+        <SkillBlock label="Dart" img={'/dart.png'} />
+        <SkillBlock label="Julia" img={'/julia.png'} />
+      </SkillCard>
     </>
   );
 }

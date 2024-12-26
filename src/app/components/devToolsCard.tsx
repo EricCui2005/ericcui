@@ -1,18 +1,21 @@
-import SkillLine from './skillLine';
+import SkillCard from './skillCard';
+import SkillBlock from './skillBlock';
 
 export default function DevToolsCard({ title }) {
   return (
     <>
-      <div className="bg-lightBlue flex h-[65vh] w-[30vw] flex-col items-center rounded-3xl pt-4 drop-shadow-xl">
-        <h1 className="mt-1 text-[28px] text-white">{title}</h1>
-        <div className="mt-4 flex w-3/4 flex-col items-center justify-center gap-4">
-          <SkillLine label="Git" img={'/git.png'} imgDim={50} />
-          <SkillLine label="GitHub" img={'/gitHub.png'} imgDim={50} />
-          <SkillLine label="Jira" img={'/jira.png'} imgDim={50} />
-          <SkillLine label="BitBucket" img={'/bitBucket.png'} imgDim={50} />
-          <SkillLine label="VS Code" img={'/vsCode.png'} imgDim={50} />
-        </div>
-      </div>
+      <SkillCard title={title}>
+        <SkillBlock label="Git" img={'/git.png'} />
+        <SkillBlock label="GitHub" img={'/gitHub.png'} />
+        <SkillBlock label="Jira" img={'/jira.png'} />
+        <SkillBlock label="BitBucket" img={'/bitBucket.png'} />
+        <SkillBlock label="VS Code" img={'/vsCode.png'} />
+        <SkillBlock label="GitKraken" img={'/gitKraken.svg'} />
+        <SkillBlock label="Azure" img={'/azure.png'} />
+        <SkillBlock label="PyCharm" img={'/pyCharm.png'} />
+        <SkillBlock label="Google Colab" img={'/googleColab.png'} />
+        <SkillBlock label="Vercel" img={'/vercel.svg'} />
+      </SkillCard>
     </>
   );
 }
