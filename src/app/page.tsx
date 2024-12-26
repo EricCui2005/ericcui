@@ -1,10 +1,10 @@
 'use client';
-import AboutSection from './components/aboutSection';
-import SkillsSection from './components/skillsSection';
-import Landing from './components/landing';
-import PortfolioSection from './components/portfolioSection';
+import AboutSection from './sections/aboutSection';
+import SkillsSection from './sections/skillsSection';
+import Landing from './sections/landing';
+import PortfolioSection from './sections/portfolioSection';
 import NavBar from './components/navBar';
-import ContactSection from './components/contactSection';
+import ContactSection from './sections/contactSection';
 import CustomHead from './components/customHead';
 
 export default function Home() {

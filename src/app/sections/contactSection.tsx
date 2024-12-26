@@ -1,4 +1,4 @@
-import ContactSubsection from './contactSubsection';
+import ContactSubsection from '../components/contactSubsection';
 
 export default function ContactSection() {
   return (

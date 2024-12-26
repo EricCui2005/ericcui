@@ -1,4 +1,4 @@
-import PortfolioCard from './portfolioCard';
+import PortfolioCard from '../components/portfolioCard';
 import { useEffect, useRef, useState } from 'react';
 
 export default function PortfolioSection() {
@@ -31,7 +31,7 @@ export default function PortfolioSection() {
           <div className="w-[24px]">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
             ref={scrollContainerRef}
-            className="items-top scrollbar-hide flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto"
+            className="items-top flex h-[620px] w-5/6 flex-row gap-8 overflow-x-auto scrollbar-hide"
           >
             <PortfolioCard
               title="Stanford Scheduler"

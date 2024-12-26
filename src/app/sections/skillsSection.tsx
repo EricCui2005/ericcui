@@ -1,6 +1,6 @@
-import LanguagesCard from './languagesCard';
-import TechnologiesCard from './technologiesCard';
-import DevToolsCard from './devToolsCard';
+import LanguagesCard from '../components/languagesCard';
+import TechnologiesCard from '../components/technologiesCard';
+import DevToolsCard from '../components/devToolsCard';
 
 export default function SkillsSection() {
   return (

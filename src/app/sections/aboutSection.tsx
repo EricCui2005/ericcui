@@ -1,9 +1,9 @@
-import RoundedImage from './roundedImage';
+import RoundedImage from '../components/roundedImage';
 
 export default function AboutSection() {
   return (
     <>
-      <div className="bg-offWhite relative flex h-[600px] w-full flex-row items-center justify-center">
+      <div className="relative flex h-[600px] w-full flex-row items-center justify-center bg-offWhite">
         <div className="absolute left-[100px]">
           <RoundedImage image="/Eric.jpeg" dim={350} />
         </div>
