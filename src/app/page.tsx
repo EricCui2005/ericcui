@@ -6,7 +6,6 @@ import PortfolioSection from './components/portfolioSection';
 import NavButton from './components/navButton';
 import ContactSection from './components/contactSection';
 import Head from 'next/head';
-import { useEffect } from 'react';
 
 // Home page
 export default function Home() {
@@ -31,11 +30,11 @@ export default function Home() {
         <meta name="author" content="Eric Cui" />
       </Head>
       <div className="fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl bg-lightBlue drop-shadow-xl">
-        <NavButton text="Home" onClick={() => scrollToSection('home')} />
-        <NavButton text="About" onClick={() => scrollToSection('about')} />
-        <NavButton text="Skills" onClick={() => scrollToSection('skills')} />
-        <NavButton text="Portfolio" onClick={() => scrollToSection('portfolio')} />
-        <NavButton text="Contact" onClick={() => scrollToSection('contact')} />
+        <NavButton text="Home" ref="home" />
+        <NavButton text="About" ref="about" />
+        <NavButton text="Skills" ref="skills" />
+        <NavButton text="Portfolio" ref="portfolio" />
+        <NavButton text="Contact" ref="contact" />
       </div>
       <div id="home"></div>
       <Landing />
