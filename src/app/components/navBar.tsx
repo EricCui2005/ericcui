@@ -3,7 +3,7 @@ import NavButton from './navButton';
 export default function NavBar() {
   return (
     <>
-      <div className="fixed flex h-[64px] w-[450px] flex-row items-center justify-center rounded-2xl bg-lightBlue drop-shadow-xl">
+      <div className="fixed flex h-[7vh] w-[30vw] flex-row items-center justify-center rounded-2xl bg-lightBlue drop-shadow-xl">
         <NavButton text="Home" ref="home" />
         <NavButton text="About" ref="about" />
         <NavButton text="Skills" ref="skills" />
