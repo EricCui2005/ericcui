@@ -3,7 +3,10 @@ import ContactSubsection from '../components/contactSubsection';
 export default function ContactSection() {
   return (
     <>
-      <div className="relative flex h-[35vh] w-full flex-row items-center justify-center bg-darkestBlue">
+      <div
+        id="contact"
+        className="relative flex h-[35vh] w-full flex-row items-center justify-center bg-darkestBlue"
+      >
         <div className="flex w-5/6 flex-row justify-center gap-64">
           <ContactSubsection title="Socials">
             <a

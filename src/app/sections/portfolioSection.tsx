@@ -27,9 +27,9 @@ export default function PortfolioSection() {
     <>
       <div
         id="portfolio"
-        className="flex h-[100vh] w-full flex-col items-center justify-center gap-8"
+        className="flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
       >
-        <h1 className="text-[36px] font-bold text-white">Portfolio</h1>
+        <h1 className="text-3xl font-bold text-white">Portfolio</h1>
         <div className="flex h-[620px] w-full flex-row items-center justify-center gap-8">
           <div className="w-[24px]">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
