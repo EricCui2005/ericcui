@@ -1,7 +1,10 @@
 export default function AboutSection() {
   return (
     <>
-      <div className="debug relative flex h-auto w-full flex-col-reverse items-center justify-center bg-offWhite px-12 py-36 md:flex-row">
+      <div
+        id="about"
+        className="relative flex h-auto w-full flex-col-reverse items-center justify-center bg-offWhite px-12 py-36 md:flex-row"
+      >
         <div className="flex h-auto w-[80%] flex-col justify-center px-12">
           <h1 className="mb-4 text-2xl font-bold">About</h1>
           <p className="text-xl">

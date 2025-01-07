@@ -25,9 +25,12 @@ export default function PortfolioSection() {
   }, []);
   return (
     <>
-      <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
-        <h1 className="absolute top-[3%] text-[36px] font-bold text-white">Portfolio</h1>
-        <div className="absolute top-28 flex h-[620px] w-full flex-row items-center justify-center gap-8">
+      <div
+        id="portfolio"
+        className="flex h-[100vh] w-full flex-col items-center justify-center gap-8"
+      >
+        <h1 className="text-[36px] font-bold text-white">Portfolio</h1>
+        <div className="flex h-[620px] w-full flex-row items-center justify-center gap-8">
           <div className="w-[24px]">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
             ref={scrollContainerRef}
