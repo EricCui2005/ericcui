@@ -18,7 +18,7 @@ export default function Home() {
       <AboutSection />
       <div id="skills"></div>
       <SkillsSection />
-      <div className="absolute top-[261%] w-full" id="portfolio"></div>
+      <div className="absolute top-[266%] w-full" id="portfolio"></div>
       <PortfolioSection />
       <div id="contact"></div>
       <ContactSection />
