@@ -3,7 +3,7 @@ export default function AboutSection() {
     <>
       <div
         id="about"
-        className="relative flex h-auto w-full flex-col-reverse items-center justify-center gap-6 bg-offWhite px-12 py-36 md:flex-row"
+        className="debug relative flex h-auto w-full flex-col-reverse items-center justify-center gap-6 bg-offWhite px-12 py-20 md:flex-row md:py-36"
       >
         <div className="flex h-auto w-[80%] flex-col justify-center px-12">
           <h1 className="mb-4 text-center text-2xl font-bold md:text-left">About</h1>
@@ -16,7 +16,7 @@ export default function AboutSection() {
             challenging projects and collaborate with others to make an impact. Let's connect!
           </p>
         </div>
-        <div className="flex h-auto w-96 flex-col items-center justify-center">
+        <div className="flex h-auto w-64 flex-col items-center justify-center md:w-96">
           <img src="/Eric.jpeg" alt="Eric" className="rounded-full" />
         </div>
       </div>
