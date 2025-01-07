@@ -3,10 +3,10 @@ export default function AboutSection() {
     <>
       <div
         id="about"
-        className="relative flex h-auto w-full flex-col-reverse items-center justify-center bg-offWhite px-12 py-36 md:flex-row"
+        className="relative flex h-auto w-full flex-col-reverse items-center justify-center gap-6 bg-offWhite px-12 py-36 md:flex-row"
       >
         <div className="flex h-auto w-[80%] flex-col justify-center px-12">
-          <h1 className="mb-4 text-2xl font-bold">About</h1>
+          <h1 className="mb-4 text-center text-2xl font-bold md:text-left">About</h1>
           <p className="text-xl">
             Hi there! I'm Eric Cui, a Computer Science student at Stanford University specializing
             in Artificial Intelligence. I'm passionate about creating innovative solutions at the
