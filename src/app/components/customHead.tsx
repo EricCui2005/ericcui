@@ -14,6 +14,7 @@ export default function CustomHead() {
           content="Stanford, Stanford University, Computer Science, Eric Cui, Software Engineer"
         />
         <meta name="author" content="Eric Cui" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
     </>
   );
