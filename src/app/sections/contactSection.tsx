@@ -7,7 +7,7 @@ export default function ContactSection() {
         id="contact"
         className="relative flex h-[16rem] w-full flex-row items-center justify-center bg-darkestBlue"
       >
-        <div className="flex w-5/6 flex-row justify-center gap-64">
+        <div className="flex w-5/6 flex-row justify-center gap-24 md:gap-60">
           <ContactSubsection title="Socials">
             <a
               href="https://www.linkedin.com/in/eric-cui-003154233/"
