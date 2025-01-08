@@ -10,7 +10,7 @@ export default function SkillsSection() {
         className="flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
       >
         <h1 className="text-3xl font-bold text-white">Skills</h1>
-        <div className="flex flex-row gap-[2vw]">
+        <div className="flex w-full flex-col items-center justify-center gap-[2vw] px-4 md:flex-row">
           <TechnologiesCard title="Technologies" />
           <LanguagesCard title="Languages" />
           <DevToolsCard title="Developer Tools" />
