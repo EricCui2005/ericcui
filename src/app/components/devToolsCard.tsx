@@ -13,7 +13,7 @@ export default function DevToolsCard({ title }) {
         <SkillBlock label="GitKraken" img={'/gitKraken.svg'} />
         <SkillBlock label="Azure" img={'/azure.png'} />
         <SkillBlock label="PyCharm" img={'/pyCharm.png'} />
-        <SkillBlock label="Google Colab" img={'/googleColab.png'} />
+        <SkillBlock label="Colab" img={'/googleColab.png'} />
         <SkillBlock label="Vercel" img={'/vercel.svg'} />
       </SkillCard>
     </>
