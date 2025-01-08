@@ -1,4 +1,3 @@
-import PortfolioCarousel from '../components/portfolioCarousel';
 import PortfolioCard from '../components/portfolioCard';
 import { useEffect, useRef, useState } from 'react';
 
@@ -28,7 +27,7 @@ export default function PortfolioSection() {
     <>
       <div
         id="portfolio"
-        className="mb-12 flex w-full flex-col items-center justify-center gap-8 pt-28"
+        className="font-text mb-12 flex w-full flex-col items-center justify-center gap-8 pt-28"
       >
         <h1 className="text-3xl font-bold text-white">Portfolio</h1>
         <div className="flex h-full w-full flex-row items-center justify-center gap-8 px-[4.1rem]">

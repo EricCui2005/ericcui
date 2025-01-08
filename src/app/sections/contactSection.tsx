@@ -5,7 +5,7 @@ export default function ContactSection() {
     <>
       <div
         id="contact"
-        className="relative flex h-[16rem] w-full flex-row items-center justify-center bg-darkestBlue"
+        className="font-text relative flex h-[16rem] w-full flex-row items-center justify-center bg-darkestBlue"
       >
         <div className="flex w-5/6 flex-row justify-center gap-24 md:gap-60">
           <ContactSubsection title="Socials">

@@ -7,7 +7,7 @@ export default function TechnologiesCard({ title }) {
       <SkillCard title={title}>
         <SkillBlock label="React" img={'/react.png'} />
         <SkillBlock label="Next.js" img={'/next.png'} />
-        <SkillBlock label="TailwindCSS" img={'/tailwind.png'} />
+        <SkillBlock label="Tailwind" img={'/tailwind.png'} />
         <SkillBlock label="Flask" img={'/flask.svg'} />
         <SkillBlock label="Node.js" img={'/node.png'} />
         <SkillBlock label=".NET" img={'/NET.png'} />

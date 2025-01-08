@@ -7,7 +7,7 @@ export default function SkillsSection() {
     <>
       <div
         id="skills"
-        className="flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
+        className="font-text flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
       >
         <h1 className="text-3xl font-bold text-white">Skills</h1>
         <div className="flex w-full flex-col items-center justify-center gap-4 px-8 md:flex-row">

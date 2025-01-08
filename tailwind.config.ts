@@ -22,6 +22,18 @@ export default {
         contactLightGray: 'var(--contactLightGray)',
         contactDarkGray: 'var(--contactDarkGray)',
       },
+      fontFamily: {
+        text: [
+          'ui-monospace',
+          'SFMono-Regular',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          'Liberation Mono',
+          'Courier New',
+          'monospace',
+        ],
+      },
     },
   },
   plugins: [require('tailwind-scrollbar-hide'), require('daisyui')],

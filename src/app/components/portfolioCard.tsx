@@ -18,7 +18,7 @@ export default function PortfolioCard({ title, children, techs, links, img }) {
                   <Link key={index} text={linkPair['text']} link={linkPair['link']} />
                 ))}
               </div>
-              <p className="text-md">{children}</p>
+              <p className="text-md font-text">{children}</p>
             </div>
           </div>
           <div className="mt-auto flex h-auto w-auto flex-row-reverse flex-wrap-reverse content-start gap-2 gap-y-2 p-2 px-2 pb-6 text-neonBlue">
