@@ -27,14 +27,14 @@ export default function PortfolioSection() {
     <>
       <div
         id="portfolio"
-        className="flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
+        className="mb-12 flex h-auto w-full flex-col items-center justify-center gap-8 pt-28"
       >
         <h1 className="text-3xl font-bold text-white">Portfolio</h1>
         <div className="flex h-full w-full flex-row items-center justify-center gap-8 px-[4.6rem]">
           <div className="w-4">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
             ref={scrollContainerRef}
-            className="items-top flex h-full w-full flex-row gap-8 overflow-x-auto scrollbar-hide"
+            className="items-top flex h-full w-full flex-row gap-8 overflow-x-auto pb-8 scrollbar-hide"
           >
             <PortfolioCarousel />
           </div>
