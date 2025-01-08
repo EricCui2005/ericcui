@@ -21,7 +21,7 @@ export default function PortfolioCard({ title, children, techs, links, img }) {
               <p className="text-md">{children}</p>
             </div>
           </div>
-          <div className="mt-auto flex h-auto w-auto flex-row-reverse flex-wrap-reverse content-start gap-2 gap-y-2 p-2 px-6 pb-6 text-neonBlue">
+          <div className="mt-auto flex h-auto w-auto flex-row-reverse flex-wrap-reverse content-start gap-2 gap-y-2 p-2 px-2 pb-6 text-neonBlue">
             {techs.map((tech, index) => (
               <TechCell key={index} text={tech} />
             ))}
