@@ -34,7 +34,7 @@ export default function PortfolioSection() {
           <div className="w-4">{showLeftArrow && <div className="arrow left"></div>}</div>
           <div
             ref={scrollContainerRef}
-            className="items-top flex h-full w-full flex-row gap-8 overflow-x-scroll pb-8 scrollbar-hide"
+            className="items-top flex h-full w-full flex-row gap-8 overflow-x-auto pb-8 scrollbar-hide"
           >
             <PortfolioCard
               title="Stanford Scheduler"

@@ -5,11 +5,11 @@ import Image from 'next/image';
 export default function PortfolioCard({ title, children, techs, links, img }) {
   return (
     <>
-      <div className="h-[37.5rem] min-w-[24.5rem] overflow-hidden rounded-3xl bg-lightBlue drop-shadow-xl">
-        <div className="flex h-[33%] w-full flex-row items-center justify-center">
+      <div className="h-[37.5rem] min-w-[24.5rem] rounded-3xl bg-lightBlue drop-shadow-xl">
+        <div className="flex h-[33%] w-full flex-row items-center justify-center overflow-hidden rounded-tl-3xl rounded-tr-3xl">
           <Image src={img} alt={title} height={200} width={450} />
         </div>
-        <div className="relative flex h-[67%] w-full flex-col items-center bg-darkerBlue px-4 pt-2">
+        <div className="flex h-[67%] w-full flex-col items-center rounded-bl-3xl rounded-br-3xl bg-darkerBlue px-4 pt-2">
           <div className="flex h-2/3 w-full flex-col items-center">
             <div className="text-white">
               <h1 className="text-xl font-bold">{title}</h1>
