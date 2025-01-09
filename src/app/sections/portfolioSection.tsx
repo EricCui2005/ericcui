@@ -128,6 +128,24 @@ export default function PortfolioSection() {
               A research study exploring AI play in Nine Men's Morris using recursive
               decision-making algorithms and custom game evaluation routines.
             </PortfolioCard>
+            <PortfolioCard
+              title="Words"
+              techs={['Node.js', 'Tailwind', 'Next.js', 'React', 'APIs']}
+              links={[
+                {
+                  text: 'GitHub',
+                  link: 'https://github.com/EricCui2005/words',
+                },
+                {
+                  text: 'Website',
+                  link: 'https://words-drab.vercel.app/',
+                },
+              ]}
+              img="/Words.svg"
+            >
+              A stylized dictionary and thesuarus offering a seamless all-in-one wodsmithing
+              experience.
+            </PortfolioCard>
           </div>
           <div className="w-4">{showRightArrow && <div className="arrow right"></div>}</div>
         </div>
