@@ -3,7 +3,7 @@ export default function AboutSection() {
     <>
       <div
         id="about"
-        className="ont-text relative flex h-auto w-full flex-col-reverse items-center justify-center gap-6 bg-offWhite px-12 py-20 md:flex-row md:py-24"
+        className="font-text relative flex h-auto w-full flex-col-reverse items-center justify-center gap-6 bg-offWhite px-12 py-20 md:flex-row md:py-24"
       >
         <div className="flex h-auto w-[80%] flex-col justify-center px-12">
           <h1 className="mb-4 text-center text-2xl font-bold md:text-left">About</h1>

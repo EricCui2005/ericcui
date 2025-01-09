@@ -111,6 +111,24 @@ export default function PortfolioSection() {
               between muffin-esque chihuahuas and dog-like blueberry muffins.
             </PortfolioCard>
             <PortfolioCard
+              title="Words"
+              techs={['Node.js', 'Tailwind', 'Next.js', 'React', 'APIs']}
+              links={[
+                {
+                  text: 'GitHub',
+                  link: 'https://github.com/EricCui2005/words',
+                },
+                {
+                  text: 'Website',
+                  link: 'https://words-drab.vercel.app/',
+                },
+              ]}
+              img="/Words.svg"
+            >
+              A stylized dictionary and thesuarus offering a seamless all-in-one wordsmithing
+              experience.
+            </PortfolioCard>
+            <PortfolioCard
               title="AI for Nine Men's Morris"
               techs={['Google Colab', 'Python', 'Replit']}
               links={[
@@ -127,24 +145,6 @@ export default function PortfolioSection() {
             >
               A research study exploring AI play in Nine Men's Morris using recursive
               decision-making algorithms and custom game evaluation routines.
-            </PortfolioCard>
-            <PortfolioCard
-              title="Words"
-              techs={['Node.js', 'Tailwind', 'Next.js', 'React', 'APIs']}
-              links={[
-                {
-                  text: 'GitHub',
-                  link: 'https://github.com/EricCui2005/words',
-                },
-                {
-                  text: 'Website',
-                  link: 'https://words-drab.vercel.app/',
-                },
-              ]}
-              img="/Words.svg"
-            >
-              A stylized dictionary and thesuarus offering a seamless all-in-one wodsmithing
-              experience.
             </PortfolioCard>
           </div>
           <div className="w-4">{showRightArrow && <div className="arrow right"></div>}</div>
